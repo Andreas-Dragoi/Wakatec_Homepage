@@ -1,0 +1,31 @@
+# =====================================================================
+# WAKATEC INSPECT – Zugangsliste (Programm + Browser-Version)
+# ---------------------------------------------------------------------
+# Eine Zeile pro Zugang:  UserID;Lizenzschluessel
+# - Zeilen mit # sind Kommentare, Leerzeilen werden ignoriert.
+# - UserID ohne Beachtung der Gross-/Kleinschreibung, Schluessel exakt.
+# - Schluessel als SHA-256-Hash (64 Hex-Zeichen) oder Klartext.
+# - Zugaenge unter der Developer-Ueberschrift erhalten Entwicklerrechte,
+#   unter Clients die normale Vollversion (Kunde).
+# - Bequem pflegen mit tools/logins-verwaltung.html, danach hochladen:
+#   Supabase-Bucket demo/Login/logins.txt
+# =====================================================================
+
+
+# =====================================================================
+# =========================== Developer ===============================
+# =====================================================================
+Andreas;b32479ed4b9dd632c4040c85ef594952e8e6541a8b8fd77f170c0af9af19d047
+Florian;6c96c2c0a2fc117ad29017a7e22ee182d6c0c65e95f45e40dfa4e22bcafbe1ec
+Christian;6c96c2c0a2fc117ad29017a7e22ee182d6c0c65e95f45e40dfa4e22bcafbe1ec
+# =====================================================================
+
+
+# =====================================================================
+# =========================== Clients =================================
+# =====================================================================
+# Wakatec
+Wakatec;b32479ed4b9dd632c4040c85ef594952e8e6541a8b8fd77f170c0af9af19d047
+# Brauhaus zu Murau_Fritz-Wassermann_26_08_2026
+F.Wassermann;71c0c657d0bede455fd0f99864ec80aefc46de8ebcbb1fcf68cbf5ac0d7ae949
+# =====================================================================
